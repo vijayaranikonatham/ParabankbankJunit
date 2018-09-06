@@ -10,8 +10,8 @@ import CQGenerated.testsuite.*;
 	TestCase1.class,
 	TestCase2.class,
 	TestCase3.class,
-	TestCase4.class,
-	/*TestCase5.class,
+	/*TestCase4.class,
+	TestCase5.class,
 	TestCase6.class*/
 	TestCase7.class,
 	/*TestCase8.class,
