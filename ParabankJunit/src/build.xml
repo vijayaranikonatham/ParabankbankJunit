@@ -1,0 +1,26 @@
+<project name="ParabankJunit" default="unit-test-1" basedir=".">
+
+		
+		<property name="src" value="./src" />
+	
+ 	<property name="test.class.name" value="CQGenerated/CQTestSuite.java"/>
+		
+		
+		<path id="test.classpath">
+		  <!-- <pathelement location="${classes}" /> -->
+		  <pathelement location="E:/vijaya-Cisco-2016/ParabankJunit/lib/selenium-2.53.1/libs/junit-4.12.jar" />
+		  <fileset dir="E:/vijaya-Cisco-2016/ParabankJunit/lib">
+		    <include name="**/*.jar"/>
+		  </fileset>
+		</path>
+		<target name="unit-test-1" >
+		  <junit fork="yes" haltonfailure="yes">
+		    <test name="${test.class.name}" />
+		    <formatter type="plain" usefile="false" />
+		    <classpath refid="test.classpath" />
+		  </junit>
+	</target>
+		
+  
+
+</project>
